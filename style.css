@@ -73,3 +73,83 @@ figcaption {
     color: #888;
     margin-top: 10px;
     text-align: center;
+}
+.bd-example>:last-child, .bd-example>nav:last-child .breadcrumb {
+    margin-bottom: 0;
+}
+.carousel {
+    position: relative;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.bd-gutter {
+    --bs-gutter-x: 3rem;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+[data-bs-theme="dark"] {
+    --base00: #282c34;
+    --base01: #353b45;
+    --base02: #3e4451;
+    --base03: #868e96;
+    --base04: #565c64;
+    --base05: #abb2bf;
+    --base06: #b6bdca;
+    --base07: #d19a66;
+    --base08: #e06c75;
+    --base09: #d19a66;
+    --base0A: #e5c07b;
+    --base0B: #98c379;
+    --base0C: #56b6c2;
+    --base0D: #61afef;
+    --base0E: #c678dd;
+    --base0F: #be5046;
+}
+:root, [data-bs-theme="light"] {
+    --base00: #fff;
+    --base01: #f5f5f5;
+    --base02: #c8c8fa;
+    --base03: #565c64;
+    --base04: #030303;
+    --base05: #333;
+    --base06: #fff;
+    --base07: #9a6700;
+    --base08: #bc4c00;
+    --base09: #087990;
+    --base0A: #795da3;
+    --base0B: #183691;
+    --base0C: #183691;
+    --base0D: #795da3;
+    --base0E: #a71d5d;
+    --base0F: #333;
+}
+[data-bs-theme="dark"] {
+    --bd-violet: #9461fb;
+    --bd-violet-bg: #712cf9;
+    --bd-sidebar-link-bg: rgba(84,33,187, .5);
+}
+:root, [data-bs-theme="light"] {
+    --bd-purple: #4c0bce;
+    --bd-violet: #712cf9;
+    --bd-accent: #ffe484;
+    --bd-violet-rgb: 112.520718,44.062154,249.437846;
+    --bd-accent-rgb: 255,228,132;
+    --bd-pink-rgb: 214,51,132;
+    --bd-teal-rgb: 32,201,151;
+    --docsearch-primary-color: var(--bd-violet);
+    --docsearch-logo-color: var(--bd-violet);
+    --bd-violet-bg: var(--bd-violet);
+    --bd-sidebar-link-bg: rgba(var(--bd-violet-rgb), .1);
+}
